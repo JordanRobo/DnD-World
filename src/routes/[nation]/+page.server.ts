@@ -4,7 +4,7 @@ export async function load({ params }) {
     const { nation } = params;
     const { data, error } = await supabase
         .from('nations')
-        .select('*')
+        .select('* , towns(*)')
         .eq('name', nation);
 
     if (error) {
