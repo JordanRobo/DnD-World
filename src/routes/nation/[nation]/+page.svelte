@@ -5,7 +5,7 @@
 
 <div class="container p-4 md:p-20 space-y-2 m-auto">
     <h1 class="h1">{data.nation.name}</h1>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 pb-8">
         <div class="lg:col-span-2 space-y-6">
             <hr />
             <blockquote class="blockquote">{data.nation.description}</blockquote>
