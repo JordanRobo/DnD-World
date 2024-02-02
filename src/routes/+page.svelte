@@ -9,7 +9,7 @@
 
 </script>
 
-<div class="container h-full mx-auto flex justify-center items-center backdrop-brightness-50">
+<div class="h-full mx-auto flex justify-center items-center">
 	<div class="space-y-5">
 		<h3 class="h3">Welcome to</h3>
 		<h1 class="h1">Afereon</h1>
@@ -19,7 +19,7 @@
 			<li>
 				<button data-sveltekit-preload-data="hover" type="button" on:click={() => {
 					goto('/nation/' + nation.name);
-				}} class="btn variant-ghost-primary hover:variant-filled-primary mt-2">{nation.name}</button>
+				}} class="btn variant-ghost-secondary hover:variant-filled-tertiary mt-2">{nation.name}</button>
 			</li>
 			{/each}
 		</ul>

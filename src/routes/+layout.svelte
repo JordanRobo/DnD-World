@@ -22,7 +22,9 @@
 	<svelte:fragment slot="sidebarRight">
 		<RightBar />
 	</svelte:fragment>
-	<div class="bg-homepattern bg-cover bg-bottom h-full">
-		<slot />
+	<div class="bg-homepattern bg-cover bg-center h-screen">
+		<div class="container backdrop-brightness-50 h-full">
+			<slot />
+		</div>
 	</div>
 </AppShell>
