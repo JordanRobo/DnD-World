@@ -11,7 +11,7 @@
         return {
             head: [ 'Name', 'CR', 'Type', 'Size', 'Alignment' ],
             body: tableMapperValues(filteredMonsters, [ 'name', 'CR', 'type', 'size', 'alignment' ]),
-            meta: tableMapperValues(filteredMonsters, [ 'name' ]),
+            meta: tableMapperValues(filteredMonsters, [ 'url' ]),
         };
     }
 

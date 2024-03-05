@@ -40,7 +40,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@floating-ui/dom": "1.5.4",
+    "@floating-ui/dom": "^1.6.3",
     "@supabase/supabase-js": "^2.39.3",
     "@types/showdown": "^2.0.6",
     "iconify-icon": "^1.0.8",

@@ -1,6 +1,0 @@
-<div class="space-y-4">
-    <h2 class="h2">Act 2: Part 2</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut arcu vehicula, imperdiet erat dapibus, mattis arcu. Aliquam finibus congue dolor id ornare. Nulla sed finibus velit, at auctor dui. Fusce iaculis, erat venenatis sagittis gravida, tellus dui bibendum sem, id malesuada dolor elit non erat. Fusce bibendum lacinia mollis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor sollicitudin consequat. Aliquam elit mauris, ullamcorper et egestas ut, egestas vitae velit. Curabitur eros diam, volutpat et libero non, interdum bibendum nulla. Quisque imperdiet aliquam imperdiet. Aenean vel eleifend magna. Aenean fringilla volutpat laoreet.</p>
-    <img src="https://via.placeholder.com/1280x720" alt="placeholder" class="w-full" />
-    <p>Sed laoreet in metus vel porta. Duis vel nibh vel tortor elementum commodo. Suspendisse sapien enim, congue eu quam nec, sagittis dapibus ipsum. In pellentesque sollicitudin diam iaculis blandit. Vivamus vulputate ac risus venenatis maximus. Vestibulum in neque quis mauris malesuada interdum.</p>
-</div>

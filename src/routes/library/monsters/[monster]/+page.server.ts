@@ -5,7 +5,7 @@ export async function load({ params }) {
     const { data, error } = await supabase
         .from('monsters')
         .select('*')
-        .eq('name', monster);
+        .eq('url', monster);
 
     if (error) {
         console.error('Error fetching data:', error);
