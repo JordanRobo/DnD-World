@@ -6,7 +6,7 @@ export async function load({params}) {
         .from('towns')
         .select('*')
         .eq('url', town );
-   
+        
         return {
             town: data ? data[0] : null,
         };

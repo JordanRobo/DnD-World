@@ -5,7 +5,7 @@
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
 	import LeftBar from '$lib/components/LeftBar.svelte';
 	import 'iconify-icon';
-    import showdown from 'showdown';
+	import { formatMarkdown } from '$lib/util';
 
 	export let data;
 
@@ -23,10 +23,6 @@
 		campaignIndex.update(n => n - 1);
 	}
 	
-	function formatMarkdown( markdownText: string ) {
-        const converter = new showdown.Converter();
-        return converter.makeHtml(markdownText);
-    };
 </script>
 
 <AppShell>

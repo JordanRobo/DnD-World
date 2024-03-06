@@ -48,10 +48,7 @@ export default {
 				  },
 				},
 			  }),
-			backgroundImage: {
-				homepattern: "url('$lib/images/town.png')",
-				map: "url('$lib/images/Aefereon.jpg')",
-			}
+			
 		},
 	},
 	plugins: [
