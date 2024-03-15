@@ -7,7 +7,7 @@
     let tabSet: number = 0;
 </script>
 
-<h1 class="h1">{nation.name}</h1>
+    <h1 class="h1">{nation.name}</h1>
 
 <TabGroup>
 	<Tab bind:group={tabSet} name="tab1" value={0}>Overview</Tab>
@@ -74,6 +74,3 @@
 		{/if}
 	</svelte:fragment>
 </TabGroup>
-			
-
-

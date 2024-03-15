@@ -26,8 +26,6 @@
     // If sourceData updates, set the new TableSource values
     $: tableSimple = data.monsters ? setTableSource() : undefined;
 		
-
-    console.log(data);
 </script>
 
 <div class="h-full p-8">

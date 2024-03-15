@@ -4,7 +4,7 @@ export async function load({params}) {
     const { town } = params;
     const { data } = await supabase
         .from('towns')
-        .select('*')
+        .select('*, shops(*)')
         .eq('url', town );
         
         return {
