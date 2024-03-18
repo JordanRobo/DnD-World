@@ -1,11 +1,7 @@
 <script lang='ts'>
-    import showdown from 'showdown';
+    import { formatMarkdown } from '$lib/util';
     export let data;
     
-    function formatMarkdown( markdownText: string ) {
-        const converter = new showdown.Converter();
-        return converter.makeHtml(markdownText);
-    }
 </script>
 
 <div class="h-full mx-auto flex justify-center items-center">

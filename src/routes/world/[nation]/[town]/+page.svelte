@@ -1,20 +1,19 @@
 <script lang="ts">
     import { TabGroup, Tab, Table, tableMapperValues, type TableSource } from '@skeletonlabs/skeleton';
-	import { formatMarkdown } from '$lib/util';
-	import artifacts from '$lib/items/artifacts.json';
+	import { formatMarkdown, getStock } from '$lib/util';
     export let data;
 
     let town = data.town;
     let tabSet: number = 0;
 
+	let alchemist_items = getStock('alchemist', town.size);
 
-
-	const artifacts_list: TableSource = {
+	const alchemist_list: TableSource = {
 		head: ['Name', 'Description', 'Price'],
-		body: tableMapperValues(artifacts, ['name', 'description', 'cost']),
+		body: tableMapperValues(alchemist_items , ['name', 'description', 'price']),
 	};
-				
 
+				
 </script>
 
 <h1 class="h1">{town.name}</h1>
@@ -45,18 +44,19 @@
 			</div>
 			<div class="col-span-3">
 				{#if town.shops[tabSet - 1].shop_type == "Tavern"}
-					<h2 class="h2">Tavern Menu</h2>
+					<p>Loading...</p>
 				{:else if town.shops[tabSet - 1].shop_type == "Alchemist"}	
-					<h2 class="h2">Alchemist Menu</h2>
+					<Table source={alchemist_list} />
 				{:else if town.shops[tabSet - 1].shop_type == "Blacksmith"}
-					<h2 class="h2">Blacksmith Menu</h2>
+					<p>Loading...</p>
 				{:else if town.shops[tabSet - 1].shop_type == "General Store"}
-					<h2 class="h2">General Store Menu</h2>
+					<p>Loading...</p>
 				{:else if town.shops[tabSet - 1].shop_type == "Artificer"}
-					<h2 class="h2">Artificer Menu</h2>
-					<Table source={artifacts_list}></Table>
-				{:else if town.shops[tabSet - 1].shop_type == "Enchanter"}
-					<h2 class="h2">Enchanter Menu</h2>
+					<p>Loading...</p>
+				{:else if town.shops[tabSet - 1].shop_type == "Jeweler"}
+					<p>Loading...</p>
+				{:else if town.shops[tabSet - 1].shop_type == "Illicit"}
+				<p>Loading...</p>
 				{/if}
 			</div>
 		</div>
