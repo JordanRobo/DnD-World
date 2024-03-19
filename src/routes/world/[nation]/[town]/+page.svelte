@@ -6,14 +6,14 @@
     let town = data.town;
     let tabSet: number = 0;
 
-	let alchemist_items = getStock('alchemist', town.size);
-
-	const alchemist_list: TableSource = {
-		head: ['Name', 'Description', 'Price'],
-		body: tableMapperValues(alchemist_items , ['name', 'description', 'price']),
-	};
-
-				
+	function itemList(shopType: string): TableSource {
+        const shopItems = getStock(shopType, town.size);
+        return {
+            head: ['Name', 'Description', 'Price'],
+            body: tableMapperValues(shopItems, ['name', 'description', 'price']),
+        };
+    }
+		
 </script>
 
 <h1 class="h1">{town.name}</h1>
@@ -44,19 +44,19 @@
 			</div>
 			<div class="col-span-3">
 				{#if town.shops[tabSet - 1].shop_type == "Tavern"}
-					<p>Loading...</p>
+					<Table source={itemList('tavern')} />
 				{:else if town.shops[tabSet - 1].shop_type == "Alchemist"}	
-					<Table source={alchemist_list} />
+					<Table source={itemList('alchemist')} />
 				{:else if town.shops[tabSet - 1].shop_type == "Blacksmith"}
-					<p>Loading...</p>
+					<Table source={itemList('blacksmith')} />
 				{:else if town.shops[tabSet - 1].shop_type == "General Store"}
-					<p>Loading...</p>
+					<Table source={itemList('general')} />
 				{:else if town.shops[tabSet - 1].shop_type == "Artificer"}
-					<p>Loading...</p>
+					<Table source={itemList('artificer')} />
 				{:else if town.shops[tabSet - 1].shop_type == "Jeweler"}
-					<p>Loading...</p>
+					<Table source={itemList('jeweler')} />
 				{:else if town.shops[tabSet - 1].shop_type == "Illicit"}
-				<p>Loading...</p>
+					<Table source={itemList('illicit')} />
 				{/if}
 			</div>
 		</div>

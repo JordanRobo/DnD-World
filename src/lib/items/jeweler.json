@@ -1,177 +1,415 @@
 [
     { 
         "id": 1,
-        "name": "Potion of Healing",
-        "description": "A potion that heals the drinker for 2d4+2 hit points.",
-        "price": "50 gp",
+        "name": "Amulet",
+        "description": "A holy symbol is a representation of a god or pantheon. A cleric or paladin can use a holy symbol as a spellcasting focus, as described in the Spellcasting section. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.",
+        "price": "5 gp",
         "rarity": 1
     },
     {
         "id": 2,
-        "name": "Potion of Climbing",
-        "description": "When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength (Athletics) checks you make to climb.",
-        "price": "20 gp",
+        "name": "Arcane Focus",
+        "description": "An arcane focus is a special item—an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item—designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in the Spellcasting section.",
+        "price": "5 gp",
         "rarity": 1
     },
     {
         "id": 3,
-        "name": "Acid (vial)",
-        "description": "As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.",
-        "price": "25 gp",
+        "name": "Signet Ring",
+        "description": "A signet ring is a piece of jewelry that bears the emblem of an influential family, guild, or religious group. It is typically used to seal important documents, and the magical properties of a signet ring can be used to verify the authenticity of a document.",
+        "price": "5 gp",
         "rarity": 1
     },
     {
         "id": 4,
-        "name": "Potion of Water Breathing",
-        "description": "You can breathe underwater for 1 hour after drinking this potion. Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.",
-        "price": "180 gp",
-        "rarity": 1
-    },
-    {
-        "id": 5,
-        "name": "Antitoxin (vial)",
-        "description": "A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.",
-        "price": "50 gp",
-        "rarity": 1
-    },
-    {
-        "id": 6,
-        "name": " Bottle, glass",
-        "description": "A bottle of glass can hold 1 pint of liquid.",
-        "price": "2 gp",
-        "rarity": 1
-    },
-    {
-        "id": 7,
-        "name": "Component pouch",
-        "description": "A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description).",
+        "name": "Jeweler's Tools",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
         "price": "25 gp",
         "rarity": 1
     },
     {
+        "id": 5,
+        "name": "Gemstone (Azurite)",
+        "description": "An opaque mottled deep blue gemstone worth 10 gold pieces.",
+        "price": "10 gp",
+        "rarity": 1
+    },
+    {
+        "id": 6,
+        "name": "Gemstone (Banded Agate)",
+        "description": "A translucent striped brown, blue, white, or red gemstone worth 10 gold pieces.",
+        "price": "10 gp",
+        "rarity": 1
+    },
+    {
+        "id": 7,
+        "name": "Gemstone (Blue Quartz)",
+        "description": "A transparent pale blue gemstone worth 10 gold pieces.",
+        "price": "10 gp",
+        "rarity": 1
+    },
+    {
         "id": 8,
-        "name": "Alchemist's Fire (flask)",
-        "description": "This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",
-        "price": "50 gp",
-        "rarity": 2
+        "name": "Gemstone (Eye Agate)",
+        "description": "A translucent yellow and white, or yellow and blue, or yellow and red gemstone worth 10 gold pieces.",
+        "price": "10 gp",
+        "rarity": 1
     },
     {
         "id": 9,
-        "name": "Potion of Greater Healing",
-        "description": "A potion that heals the drinker for 4d4+4 hit points.",
-        "price": "150 gp",
-        "rarity": 2
+        "name": "Gemstone (Hematite)",
+        "description": "A solid gray-black gemstone worth 10 gold pieces.",
+        "price": "10 gp",
+        "rarity": 1
     },
     {
         "id": 10,
-        "name": "Potion of Superior Healing",
-        "description": "A potion that heals the drinker for 8d4+8 hit points.",
-        "price": "500 gp",
-        "rarity": 3
+        "name": "Gemstone (Lapis Lazuli)",
+        "description": "A deep blue, opaque gemstone worth 10 gold pieces.",
+        "price": "10 gp",
+        "rarity": 1
     },
     {
         "id": 11,
-        "name": "Healer's Kit",
-        "description": "This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.",
-        "price": "5 gp",
+        "name": "Gemstone (Malachite)",
+        "description": "A striped green gemstone worth 10 gold pieces.",
+        "price": "10 gp",
         "rarity": 1
     },
     {
         "id": 12,
-        "name": "Oil (flask)",
-        "description": "Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.",
-        "price": "1 sp",
+        "name": "Gemstone (Moss Agate)",
+        "description": "A transparent pale blue, green, or red gemstone worth 10 gold pieces.",
+        "price": "10 gp",
         "rarity": 1
     },
     {
         "id": 13,
-        "name": "Poison, Basic (vial)",
-        "description": "You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.",
-        "price": "100 gp",
+        "name": "Gemstone (Obsidian)",
+        "description": "A black or dark green, opaque gemstone worth 10 gold pieces.",
+        "price": "10 gp",
         "rarity": 1
     },
     {
         "id": 14,
-        "name": "Alchemist's Supplies",
-        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of alchemist's supplies, each of which includes the items you need to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
-        "price": "50 gp",
-        "rarity": 3
+        "name": "Gemstone (Rhodochrosite)",
+        "description": "A light pink gemstone worth 10 gold pieces.",
+        "price": "10 gp",
+        "rarity": 1
     },
     {
         "id": 15,
-        "name": "Herbalism Kit",
-        "description": "This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.",
-        "price": "5 gp",
-        "rarity": 2
+        "name": "Gemstone (Tiger Eye)",
+        "description": "A golden-brown, opaque gemstone with a glowing, banded pattern worth 10 gold pieces.",
+        "price": "10 gp",
+        "rarity": 1
     },
     {
         "id": 16,
-        "name": "Poisoner's Kit",
-        "description": "A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.",
-        "price": "50 gp",
-        "rarity": 2
+        "name": "Gemstone (Turquoise)",
+        "description": "A clear sky-blue gemstone worth 10 gold pieces.",
+        "price": "10 gp",
+        "rarity": 1
     },
     {
         "id": 17,
-        "name": "Potion of Invisibility",
-        "description": "A potion that makes the drinker invisible for 1 hour.",
-        "price": "350 gp",
-        "rarity": 3
+        "name": "Gemstone (Bloodstone)",
+        "description": "A dark gray with red flecks, opaque gemstone worth 50 gold pieces.",
+        "price": "50 gp",
+        "rarity": 1
     },
     {
         "id": 18,
-        "name": "Potion of Speed",
-        "description": "When you drink this potion, you gain the effect of the haste spell for 1 minute.",
-        "price": "400 gp",
-        "rarity": 3
+        "name": "Gemstone (Carnelian)",
+        "description": "An orange to red-brown, translucent gemstone worth 50 gold pieces.",
+        "price": "50 gp",
+        "rarity": 1
     },
     {
         "id": 19,
-        "name": "Potion of Flying",
-        "description": "When you drink this potion, you gain a flying speed equal to your walking speed for 1 hour and can hover. If you are flying when the potion's duration expires, you descend at a rate of 60 feet per round until you land. ",
-        "price": "500 gp",
-        "rarity": 3
+        "name": "Gemstone (Chalcedony)",
+        "description": "A white, light blue, or pale gray, translucent gemstone worth 50 gold pieces.",
+        "price": "50 gp",
+        "rarity": 1
     },
     {
         "id": 20,
-        "name": "Potion of Gaseous Form",
-        "description": "When you drink this potion, you gain the effect of the gaseous form spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion's container seems to hold fog that moves and pours like water.",
-        "price": "250 gp",
-        "rarity": 3
+        "name": "Gemstone (Chrysoberyl)",
+        "description": "A transparent yellow-green gemstone worth 50 gold pieces.",
+        "price": "50 gp",
+        "rarity": 1
     },
     {
         "id": 21,
-        "name": "Potion of Animal Friendship",
-        "description": "When you drink this potion, you can cast the animal friendship spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.",
-        "price": "100 gp",
+        "name": "Gemstone (Citrine)",
+        "description": "A transparent pale yellow-brown gemstone worth 50 gold pieces.",
+        "price": "50 gp",
         "rarity": 1
     },
     {
         "id": 22,
-        "name": "Potion of Growth",
-        "description": "When you drink this potion, you gain the 'enlarge' effect of the enlarge/reduce spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.",
-        "price": "300 gp",
-        "rarity": 3
+        "name": "Gemstone (Jasper)",
+        "description": "An opaque blue, black, or brown gemstone worth 50 gold pieces.",
+        "price": "50 gp",
+        "rarity": 1
     },
     {
         "id": 23,
-        "name": "Potion of Diminution",
-        "description": "When you drink this potion, you gain the 'reduce' effect of the enlarge/reduce spell for 1d4 hours (no concentration required). The blue in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.",
-        "price": "300 gp",
-        "rarity": 3
+        "name": "Gemstone (Moonstone)",
+        "description": "A translucent white with pale blue glow gemstone worth 50 gold pieces.",
+        "price": "50 gp",
+        "rarity": 1
     },
     {
         "id": 24,
-        "name": "Potion of Resistance",
-        "description": "When you drink this potion, you gain resistance to one type of damage for 1 hour. The GM chooses the type or determines it randomly from the options below.",
-        "price": "100 gp",
+        "name": "Gemstone (Onyx)",
+        "description": "A black with white bands, opaque gemstone worth 50 gold pieces.",
+        "price": "50 gp",
         "rarity": 1
     },
     {
         "id": 25,
-        "name": "Potion of Poison",
-        "description": "This concoction looks, smells, and tastes like a potion of healing or other beneficial potion. However, it is actually poison masked by illusion magic. An identify spell reveals its true nature. If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a success, the poison damage you take on your subsequent turns decreases by 1d6. After three successful saving throws, the poison ends.",
-        "price": "100 gp",
+        "name": "Gemstone (Quartz)",
+        "description": "A transparent white, smoky gray, or yellow gemstone worth 50 gold pieces.",
+        "price": "50 gp",
         "rarity": 1
+    },
+    {
+        "id": 26,
+        "name": "Gemstone (Sardonyx)",
+        "description": "A banded red and white, brown and white, or red and brown gemstone worth 50 gold pieces.",
+        "price": "50 gp",
+        "rarity": 1
+    },
+    {
+        "id": 27,
+        "name": "Gemstone (Star Rose Quartz)",
+        "description": "A translucent rosy gemstone with a white star-shaped center worth 50 gold pieces.",
+        "price": "50 gp",
+        "rarity": 1
+    },
+    {
+        "id": 28,
+        "name": "Gemstone (Amber)",
+        "description": "A transparent watery gold, green, or brown gemstone worth 100 gold pieces.",
+        "price": "100 gp",
+        "rarity": 2
+    },
+    {
+        "id": 29,
+        "name": "Gemstone (Amethyst)",
+        "description": "A transparent deep purple gemstone worth 100 gold pieces.",
+        "price": "100 gp",
+        "rarity": 2
+    },
+    {
+        "id": 30,
+        "name": "Gemstone (Coral)",
+        "description": "A pink to crimson, opaque gemstone worth 100 gold pieces.",
+        "price": "100 gp",
+        "rarity": 2
+    },
+    {
+        "id": 31,
+        "name": "Gemstone (Garnet)",
+        "description": "A transparent red, brown-green, or violet gemstone worth 100 gold pieces.",
+        "price": "100 gp",
+        "rarity": 2
+    },
+    {
+        "id": 32,
+        "name": "Gemstone (Jade)",
+        "description": "A translucent light green, deep green, or white gemstone worth 100 gold pieces.",
+        "price": "100 gp",
+        "rarity": 2
+    },
+    {
+        "id": 33,
+        "name": "Gemstone (Jet)",
+        "description": "A deep black, lustrous gemstone worth 100 gold pieces.",
+        "price": "100 gp",
+        "rarity": 2
+    },
+    {
+        "id": 34,
+        "name": "Gemstone (Alexandrite)",
+        "description": "A transparent dark green gemstone worth 500 gold pieces.",
+        "price": "500 gp",
+        "rarity": 2
+    },
+    {
+        "id": 35,
+        "name": "Gemstone (Black Pearl)",
+        "description": "A lustrous black, gray, or purple gemstone worth 500 gold pieces.",
+        "price": "500 gp",
+        "rarity": 2
+    },
+    {
+        "id": 36,
+        "name": "Gemstone (Blue Spinel)",
+        "description": "A transparent deep blue gemstone worth 500 gold pieces.",
+        "price": "500 gp",
+        "rarity": 2
+    },
+    {
+        "id": 37,
+        "name": "Gemstone (Peridot)",
+        "description": "An olive-green, transparent gemstone worth 500 gold pieces.",
+        "price": "500 gp",
+        "rarity": 2
+    },
+    {
+        "id": 38,
+        "name": "Gemstone (Star Ruby)",
+        "description": "A transparent deep red gemstone with a white star-shaped center worth 1000 gold pieces.",
+        "price": "1000 gp",
+        "rarity": 3
+    },
+    {
+        "id": 39,
+        "name": "Gemstone (Star Sapphire)",
+        "description": "A transparent blue gemstone with a white star-shaped center worth 1000 gold pieces.",
+        "price": "1000 gp",
+        "rarity": 3
+    },
+    {
+        "id": 40,
+        "name": "Gemstone (Black Opal)",
+        "description": "A translucent dark green with black mottling and golden flecks gemstone worth 1000 gold pieces.",
+        "price": "1000 gp",
+        "rarity": 3
+    },
+    {
+        "id": 41,
+        "name": "Gemstone (Fire Opal)",
+        "description": "A translucent fiery red gemstone worth 1000 gold pieces.",
+        "price": "1000 gp",
+        "rarity": 3
+    },
+    {
+        "id": 42,
+        "name": "Gemstone (Emerald)",
+        "description": "A deep bright green, transparent gemstone worth 1000 gold pieces.",
+        "price": "1000 gp",
+        "rarity": 3
+    },
+    {
+        "id": 43,
+        "name": "Gemstone (Black Sapphire)",
+        "description": "A transparent lustrous black gemstone worth 5000 gold pieces.",
+        "price": "5000 gp",
+        "rarity": 3
+    },
+    {
+        "id": 44,
+        "name": "Gemstone (Diamond)",
+        "description": "A transparent blue-white, canary, pink, brown, or blue diamond worth 5000 gold pieces.",
+        "price": "5000 gp",
+        "rarity": 3
+    },
+    {
+        "id": 45,
+        "name": "Gemstone (Jacinth)",
+        "description": "An transparent orange gemstone worth 5000 gold pieces.",
+        "price": "5000 gp",
+        "rarity": 3
+    },
+    {
+        "id": 46,
+        "name": "Gemstone (Ruby)",
+        "description": "A transparent deep red gemstone worth 5000 gold pieces.",
+        "price": "5000 gp",
+        "rarity": 3
+    },
+    {
+        "id": 47,
+        "name": "Ring of Protection",
+        "description": "While wearing this ring, you have advantage on saving throws against spells and other magical effects, and spells can't reduce your hit points to less than 1.",
+        "price": "2000 gp",
+        "rarity": 3
+    },
+    {
+        "id": 48,
+        "name": "Ring of Animal Influence",
+        "description": "This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 of its charges to cast one of the following spells: Animal Friendship (save DC 13), Fear (save DC 13), or Speak with Animals.",
+        "price": "4000 gp",
+        "rarity": 1
+    },
+    {
+        "id": 49,
+        "name": "Ring of Feather Falling",
+        "description": "When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling. If you are within 30 feet of a solid surface, you can use your reaction to slow your fall to 60 feet per round until you land.",
+        "price": "2000 gp",
+        "rarity": 1
+    },
+    {
+        "id": 50,
+        "name": "Ring of Invisibility",
+        "description": "While wearing this ring, you can turn invisible as an action. Anything you are wearing or carrying is invisible with you. You remain invisible until the ring is removed, until you attack or cast a spell, or until you use a bonus action to become visible again.",
+        "price": "10000 gp",
+        "rarity": 3
+    },
+    {
+        "id": 51,
+        "name": "Ring of Spell Storing",
+        "description": "This ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time. When found, it contains 1d6 - 1 levels of stored spells chosen by the DM.",
+        "price": "2000 gp",
+        "rarity": 3
+    },
+    {
+        "id": 52,
+        "name": "Ring of Swimming",
+        "description": "While wearing this ring, you have a swimming speed of 40 feet.",
+        "price": "2000 gp",
+        "rarity": 1
+    },
+    {
+        "id": 53,
+        "name": "Ring of Warmth",
+        "description": "While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as -50 degrees Fahrenheit.",
+        "price": "2000 gp",
+        "rarity": 1
+    },
+    {
+        "id": 54,
+        "name": "Amulet of Health",
+        "description": "Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher.",
+        "price": "4000 gp",
+        "rarity": 2
+    },
+    {
+        "id": 55,
+        "name": "Periapt of Wound Closure",
+        "description": "While you wear this pendant, you stabilize whenever you are dying at the start of your turn. In addition, whenever you roll a Hit Die to regain hit points, double the number of hit points it restores.",
+        "price": "2000 gp",
+        "rarity": 1
+    },
+    {
+        "id": 56,
+        "name": "Periapt of Health",
+        "description": "You are immune to contracting any disease while you wear this pendant. If you are already infected with a disease, the effects of the disease are suppressed while you wear the pendant.",
+        "price": "2000 gp",
+        "rarity": 1
+    },
+    {
+        "id": 57,
+        "name": "Necklace of Fireballs (small)",
+        "description": "This necklace has 1d4 beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level fireball spell (save DC 15). You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the fireball by 1 for each bead beyond the first.",
+        "price": "300 gp/ bead",
+        "rarity": 1
+    },
+    {
+        "id": 58,
+        "name": "Necklace of Fireballs (medium)",
+        "description": "This necklace has 1d4+2 beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level fireball spell (save DC 15). You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the fireball by 1 for each bead beyond the first.",
+        "price": "1600 gp/ bead",
+        "rarity": 2
+    },
+    {
+        "id": 59,
+        "name": "Necklace of Fireballs (large)",
+        "description": "This necklace has 2d4+4 beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level fireball spell (save DC 15). You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the fireball by 1 for each bead beyond the first.",
+        "price": "2400 gp/ bead",
+        "rarity": 3
     }
 ]
